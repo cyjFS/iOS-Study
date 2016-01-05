@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1867431E1BFEB2800066399C /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 1867431D1BFEB2800066399C /* UINavigationController+FDFullscreenPopGesture.m */; settings = {ASSET_TAGS = (); }; };
 		4894F4201B183DE3009F44D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4894F41F1B183DE3009F44D9 /* main.m */; };
 		4894F4231B183DE3009F44D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4894F4221B183DE3009F44D9 /* AppDelegate.m */; };
 		4894F4291B183DE3009F44D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4894F4271B183DE3009F44D9 /* Main.storyboard */; };
 		4894F42B1B183DE3009F44D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4894F42A1B183DE3009F44D9 /* Images.xcassets */; };
 		4894F42E1B183DE3009F44D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4894F42C1B183DE3009F44D9 /* LaunchScreen.xib */; };
-		4894F4461B183E99009F44D9 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 4894F4441B183E99009F44D9 /* UINavigationController+FDFullscreenPopGesture.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1867431C1BFEB2800066399C /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+FDFullscreenPopGesture.h"; path = "FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h"; sourceTree = SOURCE_ROOT; };
+		1867431D1BFEB2800066399C /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+FDFullscreenPopGesture.m"; path = "FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.m"; sourceTree = SOURCE_ROOT; };
 		4894F41A1B183DE3009F44D9 /* FDFullscreenPopGestureDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDFullscreenPopGestureDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4894F41E1B183DE3009F44D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4894F41F1B183DE3009F44D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -24,8 +26,6 @@
 		4894F4281B183DE3009F44D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4894F42A1B183DE3009F44D9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4894F42D1B183DE3009F44D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		4894F4441B183E99009F44D9 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
-		4894F4451B183E99009F44D9 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +81,8 @@
 		4894F4431B183DEF009F44D9 /* FDFullscreenPopGesture */ = {
 			isa = PBXGroup;
 			children = (
-				4894F4451B183E99009F44D9 /* UINavigationController+FDFullscreenPopGesture.h */,
-				4894F4441B183E99009F44D9 /* UINavigationController+FDFullscreenPopGesture.m */,
+				1867431C1BFEB2800066399C /* UINavigationController+FDFullscreenPopGesture.h */,
+				1867431D1BFEB2800066399C /* UINavigationController+FDFullscreenPopGesture.m */,
 			);
 			name = FDFullscreenPopGesture;
 			path = ../../FDFullscreenPopGesture;
@@ -158,8 +158,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1867431E1BFEB2800066399C /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				4894F4231B183DE3009F44D9 /* AppDelegate.m in Sources */,
-				4894F4461B183E99009F44D9 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				4894F4201B183DE3009F44D9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
